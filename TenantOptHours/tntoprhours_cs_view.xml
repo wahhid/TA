@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<openerp>
+	<data>
+		<menuitem id="cs_main_menu" name="Tenant Profile System"/>			
+		<menuitem name="General" id="base.general_menu" parent="cs_main_menu"/>
+		<menuitem name="Transaction" id="base.tenantoperationhours_menu" parent="cs_main_menu"/>
+		
+		<!-- CS/LEVEL -->
+        <record model="ir.ui.view" id="view_cs_level_form">
+            <field name="name">cs.level.form</field>
+            <field name="model">cs.level</field>						
+            <field name="type">form</field>						
+            <field name="arch" type="xml">
+                <form string="Level">  
+                    <group>                            
+                        <field name="name"/>                            
+                    </group>
+                </form>
+            </field>
+        </record>
+		
+        <record model="ir.ui.view" id="view_cs_level_tree">
+            <field name="name">cs.level.tree</field>
+            <field name="model">cs.level</field>			
+            <field name="type">tree</field>						
+            <field name="arch" type="xml">
+                <tree string="Level">                            
+                    <field name="name"/>		
+                </tree>
+            </field>
+        </record>
+			
+    	<!-- CS/CATEGORY -->
+        <record model="ir.ui.view" id="view_cs_category_form">
+            <field name="name">cs.category.form</field>
+            <field name="model">cs.category</field>						
+            <field name="type">form</field>						
+            <field name="arch" type="xml">
+                <form string="Tenant Type">  
+                    <group>                            
+                        <field name="name"/>                            
+                    </group>
+                </form>
+            </field>
+        </record>
+		
+        <record model="ir.ui.view" id="view_cs_category_tree">
+            <field name="name">cs.category.tree</field>
+            <field name="model">cs.category</field>			
+            <field name="type">tree</field>						
+            <field name="arch" type="xml">
+                <tree string="Tenant Type">                            
+                    <field name="name"/>		
+                </tree>
+            </field>
+        </record>
+
+        <!-- CS/Case -->
+        <record model="ir.ui.view" id="view_cs_case_form">
+            <field name="name">cs.case.form</field>
+            <field name="model">cs.case</field>						
+            <field name="type">form</field>						
+            <field name="arch" type="xml">
+                <form string="Case" version="7.0"> 
+                  
+                   <group colspan="4">
+						<h1>							
+							<field name="trans_id" />
+						</h1>	
+					</group>
+					<group colspan="4" string="Open Hours Information">
+							<field name="trans_date"/>
+                        	<field name="employee"/>
+					</group>	 
+                    <group colspan="2" string="Tenant Information">
+                    		<field name="tenant"/>
+                        	<field name="state"/>
+                        	<field name="level"/>                      
+                    </group>
+                    
+                </form>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="view_cs_case_tree">
+            <field name="name">cs.case.tree</field>
+            <field name="model">cs.case</field>			
+            <field name="type">tree</field>						
+            <field name="arch" type="xml">
+                <tree string="Case">
+                		<field name="trans_id"/>                            
+                        <field name="trans_date"/>
+                        <field name="state"/>
+                        <field name="tenant"/>
+                        <field name="level"/>
+                        <field name="employee"/>		
+                </tree>
+            </field>
+        </record>
+ 
+ 		<!-- PARTNER -->
+ 		<record id="view_cs_partner_tree_inherit_res_partner" model="ir.ui.view">
+	        <field name="name">Tenant</field>
+	        <field name="model">res.partner</field>
+	        <field name="inherit_id" ref="base.view_partner_tree"/>
+	        <field name="arch" type="xml">
+	        	<field name="name" position="after">
+	            	<field name="suite"/>
+	                <field name="shop_phone"/>
+	                <field name="tenant_category_id"/>
+	            </field>
+	    	</field>
+	    </record>
+ 		
+		<record id="view_cs_partner_form_inherit_res_partner" model="ir.ui.view">
+	        <field name="name">Tenant</field>
+	        <field name="model">res.partner</field>
+	        <field name="inherit_id" ref="base.view_partner_form"/>
+	        <field name="arch" type="xml">
+	        	<field name="website" position="after">
+	            	<field name="suite"/>
+	                <field name="shop_phone"/>
+	                <field name="tenant_category_id"/>
+	            </field>
+	                <notebook position="inside">
+	                	<page string="Profile Note">
+	                		<field name="profile_item_detail_ids">
+	                			<tree>
+	            					<field name="profile_date"/>
+	                				<field name="profile_history"/>
+	                			</tree>
+	                		</field>
+	                	</page>
+	                	<page string="Events">
+	                		<field name="tenant_event_ids">
+	                			<tree>
+	                				<field name="name"/>
+	                				<field name="start_date"/>
+	                				<field name="end_date"/>
+	                			</tree>
+	                		</field>
+	                	</page>
+	                </notebook>
+	        </field>
+	    </record> 		
+	    
+        <!-- SEQUENCE -->   	
+        <record id="sequence_type_cs_trans_id" model="ir.sequence.type">
+            <field name="name">Transaction ID</field>
+            <field name="code">cs.trans.sequence</field>
+        </record>
+        <record id="sequence_cs_trans_id" model="ir.sequence">
+            <field name="name">Transaction ID</field>
+            <field name="code">cs.trans.sequence</field>          
+            <field name="padding" eval="10"/>
+            <field name="number_increment">1</field>            
+        </record>
+        
+ 		<!-- CS/ACTION -->
+ 		<!-- LEVEL -->
+		<record model="ir.actions.act_window" id="action_cs_level">
+            <field name="name">Level</field>
+            <field name="res_model">cs.level</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+ 		
+ 		<!-- CATEGORY -->
+		<record model="ir.actions.act_window" id="action_cs_category">
+            <field name="name">Category</field>
+            <field name="res_model">cs.category</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- CASE -->
+		<record model="ir.actions.act_window" id="action_cs_case">
+            <field name="name">Case</field>
+            <field name="res_model">cs.case</field>
+            <field name="view_mode">tree,form</field>
+        </record> 
+        
+        <!-- PARTNER -->   
+		<record model="ir.actions.act_window" id="action_res_partner">
+            <field name="name">Tenant</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_mode">tree,form</field>
+        </record> 
+
+           	        
+        <!-- ASSETS/MENU -->
+        <!-- GENERAL -->
+	<menuitem id="res_partner_menu" name="Tenant" parent="base.general_menu"  action="action_res_partner" sequence="1"/>
+	<menuitem id="category_menu" name="Category" parent="base.general_menu"  action="action_cs_category" sequence="2"/>
+        <menuitem id="level_menu" name="Level" parent="base.general_menu"  action="action_cs_level" sequence="3"/>
+        <!-- <menuitem id="tenant_menu" name="Tenant" parent="base.general_menu"  action="action_cs_tenant" sequence="2"/>-->
+        
+        <!-- Case -->
+        <menuitem id="case_menu" name="Tenant Open Hours" parent="base.tenantoperationhours_menu"  action="action_cs_case" sequence="4"/>
+        
+	</data>
+</openerp>

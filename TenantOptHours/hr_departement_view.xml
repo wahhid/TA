@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>                
+        <!-- CS/DEPARTMENT-->
+        <record model="ir.ui.view" id="view_department_form">
+            <field name="name">hr.department.form.inherit</field>
+            <field name="model">hr.department</field>            
+            <field name="inherit_id" ref="hr.view_department_form"/>
+            <field name="arch" type="xml">
+                <field name="manager_id" position="after">
+                    <field name="department_code"/>
+                </field>                                    
+            </field>
+        </record>
+        
+    </data>
+</openerp>
