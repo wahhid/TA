@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18e47a9b-3953-43ea-aaf8-129ccdff8436" name="Default" comment="" />
+    <list default="true" id="18e47a9b-3953-43ea-aaf8-129ccdff8436" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/__openerp__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/jakc_assets.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/jakc_assets_menu.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/jakc_assets_report.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/jakc_assets_report_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/jakc_assets_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_assets/security/ir.model.access.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/.pydevproject" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/.settings/org.eclipse.php.core.prefs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/__openerp__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/hr_employee.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/hr_employee_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_assets.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_assets_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_helpdesk.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_helpdesk_conversation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_helpdesk_conversation_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_helpdesk_menu.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_helpdesk_report.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_helpdesk_report_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_helpdesk_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_mail_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_mail_test3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/jakc_mail_test_2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/parsemail.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/report/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/report/jakc_helpdesk_report.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/report/jakc_helpdesk_report_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/res_config.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/res_config_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/res_users.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/res_users_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/security/ir.model.access.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/static/scripts/parsemail.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/wizard/add_conversation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_helpdesk/wizard/add_conversation_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/.pydevproject" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/__openerp__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_config.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_config_menu.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_config_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_menu.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_scheduler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_sequence.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_transaction.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_transaction_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/jakc_im_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/security/ir.model.access.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_im/security/jakc_im_security.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/__openerp__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/hr_department.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/hr_department_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/jakc_itms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/jakc_itms_view.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/security/ir.model.access.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TA/jakc_itms/security/jakc_itms_security.xml" />
+      <change beforePath="$PROJECT_DIR$/../TA/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TA/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,33 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hr_department.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TA/TenantOptHours/hr_department.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jakc_bm_customer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_customer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="99" column="56" lean-forward="false" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jakc_bm_lease.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jakc_bm_lease.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_lease.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="159" column="25" lean-forward="true" selection-start-line="159" selection-start-column="25" selection-end-line="160" selection-end-column="16" />
+            <state relative-caret-position="1658">
+              <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -45,20 +88,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jakc_bm_config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_config.py">
+      <file leaf-file-name="tntoprhours_cs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/TenantOptHours/tntoprhours_cs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="774">
+              <caret line="106" column="37" lean-forward="false" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jakc_bm_config_menu.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_config_menu.xml">
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_im/.project">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -67,8 +108,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jakc_bm_config_view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_config_view.xml">
+      <file leaf-file-name="jakc_im_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jakc_im.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jakc_im_config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jakc_im_config_menu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_config_menu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jakc_im_config_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_config_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jakc_im_transaction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_transaction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-996">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ir.model.access.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TA/jakc_assets/security/ir.model.access.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -147,6 +254,7 @@
       <recent name="$PROJECT_DIR$/TenantOptHours" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../TA" />
       <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -312,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522303379242</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Init">
+      <created>1522303395521</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522303395521</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -381,14 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TA/TenantOptHours/tntoprhours_cs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="106" column="37" lean-forward="false" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/wizard/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -428,7 +535,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -461,11 +568,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_lease.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="159" column="25" lean-forward="true" selection-start-line="159" selection-start-column="25" selection-end-line="160" selection-end-column="16" />
+        <state relative-caret-position="1658">
+          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/TenantOptHours/tntoprhours_cs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="106" column="37" lean-forward="false" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_im/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_config_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_config_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_im/jakc_im_transaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-996">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TA/jakc_assets/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

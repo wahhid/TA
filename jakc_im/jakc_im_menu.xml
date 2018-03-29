@@ -1,0 +1,22 @@
+<openerp>
+    <data>
+        <menuitem name="Incident Management" id="im_main_menu" />			
+		<menuitem name="General" id="base.im_general_menu" parent="im_main_menu"/>
+		<menuitem name="Master" id="base.im_master_menu" parent="im_main_menu"/>
+		<menuitem name="Incident" id="base.im_incident_menu" parent="im_main_menu"/>		
+		<menuitem name="Report" id="base.im_report_menu" parent="im_main_menu"/>
+					     		       
+        	                               	               	              
+        <!-- RETAIL/MENU -->
+        <!-- GENERAL -->    	       
+        <menuitem id="im_category_menu" name="Category" parent="base.im_general_menu"  action="action_im_category" sequence="1"/>
+        <menuitem id="im_priority_menu" name="Priority" parent="base.im_general_menu"  action="action_im_priority" sequence="2"/>
+        
+        <!-- MASTER -->
+                                              
+        <!-- INCIDENT -->       
+        <menuitem id="im_transaction_menu" name="Transaction" parent="base.im_incident_menu"  action="action_im_transaction" sequence="1"/>
+                                     
+        
+    </data>
+</openerp>

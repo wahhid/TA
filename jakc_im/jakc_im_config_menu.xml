@@ -1,0 +1,5 @@
+<openerp>
+    <data>
+        <menuitem id="im_config" name="Incident Management Settings" parent="base.menu_config" sequence="17" action="action_im_config"/>
+    </data>
+</openerp>

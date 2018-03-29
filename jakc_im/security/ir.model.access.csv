@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_im_category_manager,im.category.manager,model_im_category,base.group_im_manager,1,1,1,1
+access_im_category_operator,im.category.operator,model_im_category,base.group_im_operator,1,0,0,0
+
+access_im_priority_manager,im.priority.manager,model_im_priority,base.group_im_manager,1,1,1,1
+access_im_priority_operator,im.priority.operator,model_im_priority,base.group_im_operator,1,0,0,0
+
+access_im_trans_manager,im.trans.manager,model_im_trans,base.group_im_manager,1,1,1,1
+access_im_trans_operator,im.trans.operator,model_im_trans,base.group_im_operator,1,1,1,0
+

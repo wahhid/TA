@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<openerp>
+    <data>
+        <!-- IM/TRANSACTION -->				
+        <record model="ir.ui.view" id="view_im_transaction_form">
+            <field name="name">im.transaction.form</field>
+            <field name="model">im.trans</field>						
+            <field name="type">form</field>						
+            <field name="arch" type="xml">
+                <form string="Transaction" version="7.0">
+					<header>
+	                    <button name="trans_close" string="Close" type="object" class="oe_highlight" states="open"/>
+	                    <button name="trans_print" string="Print" type="object" class="oe_highlight" states="done"/>
+	                    <button name="trans_re_open" string="Re-Open" type="object" class="oe_highlight" states="done"/>
+                 	</header>                    
+                	<sheet>
+	                    <group>                            
+	                        <field name="trans_number"/>
+	                        <field name="trans_date_time"/>
+	                        <field name="name"/>
+	                        <field name="location"/>
+	                        <field name="category_id"/>
+	                        <field name="priority_id"/>
+	                        <field name="is_claimed"/>
+	                        <field name="state"/>
+	                    </group>	             
+						<notebook>
+						    <page string="Detail">
+						        <field name="trans_detail_ids">
+									<tree>
+										<field name="reported_by"/>
+						        		<field name="id_number"/>
+						        		<field name="mobile_phone"/>
+						        		<field name="company_name"/>
+						        		<field name="witnessed_by"/>									    
+									</tree>						            
+						        </field>
+						    </page>
+						</notebook>	                       		                
+                	</sheet>  
+                </form>
+            </field>
+        </record>
+        
+		<record model="ir.ui.view" id="view_im_transaction_tree">
+            <field name="name">im.transaction.tree</field>
+            <field name="model">im.trans</field>			
+            <field name="type">tree</field>						
+            <field name="arch" type="xml">
+                <tree string="Transaction">
+	            	<field name="trans_number"/>
+	            	<field name="trans_date_time"/>
+	            	<field name="name"/>
+	            	<field name="location"/>
+	            	<field name="category_id"/>
+	            	<field name="priority_id"/>
+	            	<field name="is_claimed"/>
+	            	<field name="state"/>
+                </tree>
+            </field>
+        </record>        
+       
+        <!-- IM/TRANSACTION DETAIL -->				
+        <record model="ir.ui.view" id="view_im_transaction_detail_form">
+            <field name="name">im.transaction.detail.form</field>
+            <field name="model">im.trans.detail</field>						
+            <field name="type">form</field>						
+            <field name="arch" type="xml">
+                <form string="Transaction Detail" version="7.0">
+                	<sheet>
+	                    <group>                            
+							<field name="reported_by"/>
+						   	<field name="id_number"/>
+						   	<field name="mobile_phone"/>
+						   	<field name="address"/>
+						    <field name="company_name"/>
+						    <field name="witnessed_by"/>
+						    <field name="chro_file"/>									    
+	                    </group>	             
+						<notebook>
+						    <page string="Chronolgies">
+						        <field name="trans_detail_chro_ids">
+									<tree>
+										<field name="chro_date_time"/>
+						        		<field name="description"/>
+									</tree>						            
+						        </field>
+						    </page>
+						</notebook>	                       		                
+                	</sheet>  
+                </form>
+            </field>
+        </record>		
+        <!-- IM/ACTION -->
+        
+        <!-- TRANSACTION -->        
+		<record model="ir.actions.act_window" id="action_im_transaction">
+            <field name="name">Transaction</field>
+            <field name="res_model">im.trans</field>
+            <field name="view_mode">tree,form</field>                        
+        </record>
+        		
+    </data>                
+</openerp>
