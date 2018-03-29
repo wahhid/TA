@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_lease.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
-              <caret line="155" column="76" lean-forward="true" selection-start-line="155" selection-start-column="76" selection-end-line="155" selection-end-column="76" />
+              <caret line="155" column="76" lean-forward="false" selection-start-line="155" selection-start-column="76" selection-end-line="155" selection-end-column="76" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -279,6 +279,14 @@
       <option name="presentableId" value="Default" />
       <updated>1522295781985</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1522303298366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522303298366</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -305,6 +313,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -424,7 +436,7 @@
     <entry file="file://$PROJECT_DIR$/../TA/jakc_bm_ec/jakc_bm_lease.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="155" column="76" lean-forward="true" selection-start-line="155" selection-start-column="76" selection-end-line="155" selection-end-column="76" />
+          <caret line="155" column="76" lean-forward="false" selection-start-line="155" selection-start-column="76" selection-end-line="155" selection-end-column="76" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
